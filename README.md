@@ -8,5 +8,5 @@ Create a functional VPC with three subnets, available to the public
 internet.
 
 ```bash
-aws cloudformation create-stack --stack-name test-vpc --template-body fileb:///<path-to-folder>/vpc.yaml
+aws cloudformation create-stack --stack-name infrastructure --template-body file://vpc.yaml
 ```
